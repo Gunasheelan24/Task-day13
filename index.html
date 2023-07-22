@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--I Used Internal Css Please Dont't Mind It i know How To do External css but i wanted to use internal Thank You Mam/Sir <link rel="stylesheet" href="style.css">-->
+    <style>
+    .Main {
+        display: inline-flex;
+        gap: 30px;
+        width: 800px;
+    }
+    .main-1 { 
+        width: 300px;
+    }
+    .second-div { 
+        margin-top: 40px;
+        width: 400px;
+    }
+    .first-div { 
+        width: 400px;
+    }
+    .sub-character { 
+        margin-top: 5px; 
+    }
+    .main-container { 
+        width:840px;
+    }
+    .checked {
+    color: orange;
+    }
+    .exp-cin { 
+        display: block;
+    }
+    .Margin { 
+        margin-right: 10px;
+    }
+    .Text-p { 
+        width: 400px;
+        font-weight: 600;
+    }
+    .buttons-class {
+        width:50px;
+    }
+    .buttons-for { 
+        width: 10px;
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Task</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- BootStrap Config -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- BootStrap Config -->
+    <!-- Google Font config -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">  
+    <!-- Google Font End  -->
+</head>
+<body style="background-color:aqua;">
+    <script src="./script.js"></script>
+    <!-- BootStrap Start Config -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- BootStrap End Config -->
+   
+    <!-- Body Start From Here -->
+ <div class="container-sm mt-1">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <form class="Main">
+                <div class="mb-3 first-div col-sm-6">
+                    <p class="h3">Name*</p>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="exampleInputEmail1" class="form-label sub-character">First</label>
+                </div>
+                <div class="second-div col-sm-6">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="exampleInputEmail1" class="form-label sub-character">Last</label>
+                </div>
+              </form>
+              <form class="main-1">
+                <div class="mb-3 main-container">
+                     <p class="h2">Email*</p>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                <p class="h2">Your Experience*</p>
+                <div class="container-sm">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="Text-p mt-2">
+                            Overall.how Would you rate you experience with us ?
+                        </p>
+                        <h4 style="width: 500px;">How Satisfied are you with*</h4>
+                    </div>
+                </div>
+            </form>
+</div>
+<table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Very UnSatisfied</th>
+        <th>UnSatisfied</th>
+        <th>Satisfied</th>
+        <th>Neutral</th>
+        <th>Satisfied</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Purchase</th>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+      </tr>
+      <tr>
+        <th>Service</th>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+      </tr>
+      <tr>
+        <th>Company Overall</th>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+      </tr>
+    </tbody>
+  </table>
+   <p class="h4">How Likely Are You To*</p>
+<table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Very Unlikely</th>
+        <th>Unlikely</th>
+        <th>Neutral</th>
+        <th>Likely</th>
+        <th>Very Likely</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Buy from us Again</th>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+      </tr>
+      <tr>
+        <th>Recommend our product to others</th>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+      </tr>
+      <tr>
+        <th>Recommend our company to others</th>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+      </tr>
+    </tbody>
+  </table>
+ <p class="h2">Additional Comments or Suggestions</p>
+ <textarea id="example-one" cols="15" rows="10">
+
+ </textarea>
+ <div class="container mt-2">
+    <div class="row">
+        <div class="col-md-3">
+           <a href="./index2.html"> <button type="button" class="btn btn-outline-danger" id="buttons-for" >Submit</button></a>
+        </div>
+    </div>
+ </div>
+
+    <!-- Body End From Here -->
+
+</body>
+</html>
